@@ -11,8 +11,8 @@
   
 ## Install
 
-    sudo snap install android-sdk
-    snap connect android-sdk:android-config
+    sudo snap install androidsdk
+    snap connect androidsdk:android-config
 
 ## Build
     sudo snap install snapcraft --classic
