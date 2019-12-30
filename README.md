@@ -17,3 +17,11 @@
 ## Build
     sudo snap install snapcraft --classic
     snapcraft 
+
+## Using
+
+```
+androidsdk [options]
+```
+
+[Androidsdk options](https://developer.android.com/studio/command-line/sdkmanager) 
