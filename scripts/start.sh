@@ -1,8 +1,8 @@
 #!/bin/bash
 
-chmod 777 "$SNAP/tools/bin/sdkmanager"
-
 SDK_ROOT=$HOME/AndroidSDK
+
+export JAVA_HOME="$SNAP/usr/lib/jvm/java-8-openjdk-amd64"
 
 for var in "$@"
 do
