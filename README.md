@@ -1,5 +1,10 @@
 # Android SDK in SNAP-STORE
 
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/EndrII/sdkmanager-android/master/res/android%20sdk%20(snap-store).png" alt="">
+  <br />
+</h1>
+
 ## Description 
 
   This is snap version of console sdk manager for Android. For more information about sdkmanager see official google [documentation](https://developer.android.com/studio/command-line/sdkmanager) 
