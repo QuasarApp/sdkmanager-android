@@ -5,6 +5,8 @@
   <br />
 </h1>
 
+# Warning this package is still not released in snap-store 
+
 ## Description 
 
   This is snap version of console sdk manager for Android. For more information about sdkmanager see official google [documentation](https://developer.android.com/studio/command-line/sdkmanager) 
