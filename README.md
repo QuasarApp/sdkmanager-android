@@ -1,11 +1,10 @@
 # Android SDK in SNAP-STORE
+[![Snap Status](https://build.snapcraft.io/badge/QuasarApp/sdkmanager-android.svg)](https://build.snapcraft.io/user/QuasarApp/sdkmanager-android)
 
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/EndrII/sdkmanager-android/master/res/android%20sdk%20(snap-store).png" alt="">
   <br />
 </h1>
-
-# Warning this package is still not released in snap-store 
 
 ## Description 
 
