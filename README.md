@@ -1,4 +1,4 @@
-# Android SDK in SNAP-STORE
+# Android SDK in snap-store
 [![Snap Status](https://build.snapcraft.io/badge/QuasarApp/sdkmanager-android.svg)](https://build.snapcraft.io/user/QuasarApp/sdkmanager-android)
 
 <h1 align="center">
