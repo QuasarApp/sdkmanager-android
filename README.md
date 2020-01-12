@@ -1,11 +1,10 @@
-# Android SDK in SNAP-STORE
+# Android SDK in snap-store
+[![Snap Status](https://build.snapcraft.io/badge/QuasarApp/sdkmanager-android.svg)](https://build.snapcraft.io/user/QuasarApp/sdkmanager-android)
 
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/EndrII/sdkmanager-android/master/res/android%20sdk%20(snap-store).png" alt="">
   <br />
 </h1>
-
-# Warning this package is still not released in snap-store 
 
 ## Description 
 
@@ -14,7 +13,7 @@
   ### sdkmanager 
 
   The sdkmanager is a command line tool that allows you to view, install, update, and uninstall packages for the Android SDK. If you're using Android Studio, then you do not need to use this tool and you can instead manage your SDK packages from the IDE. 
-  The sdkmanager tool is provided in the Android SDK Tools package (25.2.3 and higher) and is located in android_sdk/tools/bin/. 
+  The sdkmanager tool is provided in the Android SDK Tools package (25.2.3 and higher) and is located in ~/snap/androidsdk/current/tools/bin/. 
   
 ## Install
 
