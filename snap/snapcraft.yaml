@@ -38,16 +38,6 @@ parts:
     plugin: dump
     source: scripts
 
-  
-plugs:
-  android-config:
-    interface: personal-files
-    read:
-    - $HOME/.android
-    write:
-    - $HOME/.android
-
-
 apps:
   androidsdk:
     command: start.sh
@@ -55,7 +45,7 @@ apps:
       - home
       - removable-media
       - network
-      - android-config
+      
     environment:
       PATH: '$SNAP:$SNAP/usr/sbin:$SNAP/usr/bin:$SNAP/sbin:$SNAP/bin:$PATH'
       LD_LIBRARY_PATH: '$SNAP_LIBRARY_PATH:$SNAP/lib:$SNAP/usr/lib:$SNAP/lib/x86_64-linux-gnu:$SNAP/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH:$SNAP/lib:$SNAP/usr/lib:$SNAP/lib/x86_64-linux-gnu:$SNAP/usr/lib/x86_64-linux-gnu'
