@@ -2,8 +2,8 @@
 
 SDK_ROOT=$HOME/AndroidSDK
 
-JAVA_HOME="$SNAP/usr/lib/jvm/java-8-openjdk-amd64"
-ANDROID_SDK_HOME="$HOME/.Android"
+export JAVA_HOME="$SNAP/usr/lib/jvm/java-8-openjdk-amd64"
+export ANDROID_SDK_HOME="$HOME/.Android"
 
 for var in "$@"
 do
