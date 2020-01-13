@@ -1,5 +1,5 @@
 name: androidsdk # you probably want to 'snapcraft register <name>'
-version: '1.0' # just for humans, typically '1.2+git' or '1.3.2'
+version: '1.0.1' # just for humans, typically '1.2+git' or '1.3.2'
 summary: The package contains android sdkmanager. # 79 char long summary
 description: |
   This is snap version of console sdk manager for Android. For more information about sdkmanager see official google documentation git@github.com:EndrII/sdkmanager-android.git. 
@@ -38,6 +38,14 @@ parts:
     plugin: dump
     source: scripts
 
+plugs:
+  android-config:
+    interface: personal-files
+    read:
+    - $HOME/.android
+    write:
+    - $HOME/.android
+
 apps:
   androidsdk:
     command: start.sh
@@ -45,6 +53,7 @@ apps:
       - home
       - removable-media
       - network
+      - android-config
       
     environment:
       PATH: '$SNAP:$SNAP/usr/sbin:$SNAP/usr/bin:$SNAP/sbin:$SNAP/bin:$PATH'
