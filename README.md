@@ -1,5 +1,7 @@
 # Android SDK in snap-store
 [![Snap Status](https://build.snapcraft.io/badge/QuasarApp/sdkmanager-android.svg)](https://build.snapcraft.io/user/QuasarApp/sdkmanager-android)
+[![androidsdk](https://snapcraft.io//androidsdk/badge.svg)](https://snapcraft.io/androidsdk)
+[![androidsdk](https://snapcraft.io//androidsdk/trending.svg?name=0)](https://snapcraft.io/androidsdk)
 
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/EndrII/sdkmanager-android/master/res/android%20sdk%20(snap-store).png" alt="">
@@ -18,7 +20,11 @@
 ## Install
 
     sudo snap install androidsdk
-    snap connect androidsdk:android-config
+
+or download from:
+
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/androidsdk)
+    
 
 ## Build
     sudo snap install snapcraft --classic
