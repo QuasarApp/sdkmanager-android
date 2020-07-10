@@ -1,5 +1,5 @@
 name: androidsdk 
-version: '1.0.4.1' 
+version: '1.0.4.2' 
 summary: The package contains android sdkmanager. 
 description: |
   This is snap version of console sdk manager for Android. For more information about sdkmanager see official google documentation git@github.com:EndrII/sdkmanager-android.git. 
