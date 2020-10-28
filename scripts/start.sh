@@ -16,4 +16,4 @@ done
 
 echo "SDK_ROOT=$SDK_ROOT"
 
-exec "$SNAP/tools/bin/sdkmanager" "--sdk_root=$SDK_ROOT" "$@"
+exec "$SNAP/cmdline-tools/bin/sdkmanager" "--sdk_root=$SDK_ROOT" "$@"
