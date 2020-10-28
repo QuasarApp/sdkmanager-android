@@ -27,7 +27,7 @@ parts:
       - openjdk-8-jre-headless
     override-stage: |
       snapcraftctl stage
-      chmod 777 -R "$SNAPCRAFT_STAGE/tools"
+      chmod 777 -R "$SNAPCRAFT_STAGE/cmdline-tools"
 
     after:
       - androidsdk-wraper
