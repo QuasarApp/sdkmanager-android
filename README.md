@@ -14,7 +14,7 @@
   ### sdkmanager 
 
   The sdkmanager is a command line tool that allows you to view, install, update, and uninstall packages for the Android SDK. If you're using Android Studio, then you do not need to use this tool and you can instead manage your SDK packages from the IDE. 
-  The sdkmanager tool is provided in the Android SDK Tools package (25.2.3 and higher) and is located in ~/snap/androidsdk/current/tools/bin/. 
+  The sdkmanager tool is provided in the Android SDK Tools package (25.2.3 and higher) and is located in ~/AndroidSDK. 
   
 ## Install
 
