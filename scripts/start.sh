@@ -1,6 +1,12 @@
 #!/bin/bash
 
 EXTERNAL_HOME=/home/$USER
+
+if [ "$USER" = "root" ]
+then
+    EXTERNAL_HOME=/root
+fi
+
 OLD_SDK_ROOT=$HOME/AndroidSDK
 SDK_ROOT=$EXTERNAL_HOME/AndroidSDK
 
