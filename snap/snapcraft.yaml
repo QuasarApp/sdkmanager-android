@@ -24,7 +24,7 @@ parts:
     build-packages:
       - ca-certificates
       - ca-certificates-java
-      - openjdk-8-jre-headless
+      - openjdk-11-jre-headless
     override-stage: |
       snapcraftctl stage
       chmod 777 -R "$SNAPCRAFT_STAGE/cmdline-tools"
