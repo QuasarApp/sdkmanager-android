@@ -6,7 +6,7 @@ description: |
 
 grade: stable 
 confinement: strict 
-base: core20
+base: core22
 architectures:
   - build-on: amd64
   
@@ -14,15 +14,17 @@ parts:
   androidsdk:
     # See 'snapcraft plugins'
     plugin: dump
-    source: https://dl.google.com/android/repository/commandlinetools-linux-9123335_latest.zip
+    source: https://dl.google.com/android/repository/commandlinetools-linux-9477386_latest.zip
     stage-packages:
       - libfreetype6
       - libpng16-16
       - openjdk-11-jdk
       - openjdk-11-jre
       - openjdk-11-jre-headless
+    build-packages:
       - ca-certificates
       - ca-certificates-java
+      - openjdk-8-jre-headless
     override-stage: |
       snapcraftctl stage
       chmod 777 -R "$SNAPCRAFT_STAGE/cmdline-tools"
