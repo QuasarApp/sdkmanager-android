@@ -31,8 +31,15 @@ or download from:
 
 ## Using
 
-```
+``` bash
 androidsdk [options]
+```
+
+### Use custom sdk root dir 
+
+``` bash
+androidsdk --sdk_root /my/sdk/root/dir [options]
+
 ```
 
 [Androidsdk options](https://developer.android.com/studio/command-line/sdkmanager) 
