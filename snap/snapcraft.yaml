@@ -1,5 +1,5 @@
 name: androidsdk 
-version: '1.2.0.1' 
+version: '1.2.1.1' 
 summary: The package contains android sdkmanager. 
 description: |
   This is snap version of console sdk manager for Android. For more information about sdkmanager see official google documentation git@github.com:EndrII/sdkmanager-android.git. 
@@ -18,19 +18,19 @@ parts:
     stage-packages:
       - libfreetype6
       - libpng16-16
-      - openjdk-11-jdk
-      - openjdk-11-jre
-      - openjdk-11-jre-headless
+      - openjdk-17-jdk
+      - openjdk-17-jre
+      - openjdk-17-jre-headless
     build-packages:
       - ca-certificates
       - ca-certificates-java
-      - openjdk-11-jre-headless
+      - openjdk-17-jre-headless
     override-stage: |
       snapcraftctl stage
       chmod 777 -R "$SNAPCRAFT_STAGE/cmdline-tools"
     override-prime: |
            snapcraftctl prime
-           rm -vf usr/lib/jvm/java-11-openjdk-*/lib/security/blacklisted.certs
+           rm -vf usr/lib/jvm/java-17-openjdk-*/lib/security/blacklisted.certs
     after:
       - androidsdk-wraper
 
