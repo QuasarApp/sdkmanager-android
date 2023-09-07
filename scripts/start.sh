@@ -10,7 +10,7 @@ fi
 OLD_SDK_ROOT=$HOME/AndroidSDK
 SDK_ROOT=$EXTERNAL_HOME/AndroidSDK
 
-export JAVA_HOME="$SNAP/usr/lib/jvm/java-11-openjdk-amd64"
+export JAVA_HOME="$SNAP/usr/lib/jvm/java-17-openjdk-amd64"
 export ANDROID_SDK_HOME="$HOME/.Android"
 export _JAVA_OPTIONS=-Duser.home=$HOME
 
