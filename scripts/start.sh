@@ -58,4 +58,9 @@ fi
 
 echo "SDK_ROOT=$SDK_ROOT"
 
+export ANDROID_SDK_ROOT=$SDK_ROOT
+export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
+export PATH=$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin
+export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+
 exec "$SNAP/cmdline-tools/bin/sdkmanager" "--sdk_root=$SDK_ROOT" "$@"
